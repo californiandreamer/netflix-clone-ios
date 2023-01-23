@@ -29,6 +29,7 @@ class CollectionViewTableViewCell: UITableViewCell {
         collectionView.dataSource = self
     }
     
+    // 'required' initializer to avoid any error from above
     required init?(coder: NSCoder) {
         fatalError()
     }
