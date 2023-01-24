@@ -21,12 +21,12 @@
 		562190DA297FE63300F337FF /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562190D9297FE63300F337FF /* APICaller.swift */; };
 		562190DC297FEA9800F337FF /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562190DB297FEA9800F337FF /* Title.swift */; };
 		562190DE297FEF1F00F337FF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562190DD297FEF1F00F337FF /* Extensions.swift */; };
-		562190E2297FFB8100F337FF /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562190E1297FFB8100F337FF /* TitleCollectionViewCell.swift */; };
 		562190E5297FFCF700F337FF /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 562190E4297FFCF700F337FF /* SDWebImage */; };
 		562190E7297FFCF700F337FF /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 562190E6297FFCF700F337FF /* SDWebImageMapKit */; };
 		562190E9298040C400F337FF /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562190E8298040C400F337FF /* TitleTableViewCell.swift */; };
 		562190EB2980439C00F337FF /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562190EA2980439C00F337FF /* TitleViewModel.swift */; };
 		562190ED29804CB100F337FF /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562190EC29804CB100F337FF /* SearchResultsViewController.swift */; };
+		562190F129804E2500F337FF /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562190F029804E2500F337FF /* TitleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,10 +46,10 @@
 		562190D9297FE63300F337FF /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		562190DB297FEA9800F337FF /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		562190DD297FEF1F00F337FF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		562190E1297FFB8100F337FF /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		562190E8298040C400F337FF /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		562190EA2980439C00F337FF /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		562190EC29804CB100F337FF /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		562190F029804E2500F337FF /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +114,8 @@
 			children = (
 				562190D5297C2F9E00F337FF /* CollectionViewTableViewCell.swift */,
 				562190D7297EC8A500F337FF /* HeroHeaderUIView.swift */,
-				562190E1297FFB8100F337FF /* TitleCollectionViewCell.swift */,
 				562190E8298040C400F337FF /* TitleTableViewCell.swift */,
+				562190F029804E2500F337FF /* TitleCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -249,8 +249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				562190E9298040C400F337FF /* TitleTableViewCell.swift in Sources */,
+				562190F129804E2500F337FF /* TitleCollectionViewCell.swift in Sources */,
 				562190CD297C237500F337FF /* SearchViewController.swift in Sources */,
-				562190E2297FFB8100F337FF /* TitleCollectionViewCell.swift in Sources */,
 				562190B8297C1ED100F337FF /* MainTabBarViewController.swift in Sources */,
 				562190D6297C2F9E00F337FF /* CollectionViewTableViewCell.swift in Sources */,
 				562190DA297FE63300F337FF /* APICaller.swift in Sources */,
