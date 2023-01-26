@@ -100,9 +100,6 @@
 				562190D0297C2EB600F337FF /* Views */,
 				562190D1297C2EBE00F337FF /* ViewModels */,
 				562190C7297C228B00F337FF /* Controllers */,
-				562190B3297C1ED100F337FF /* AppDelegate.swift */,
-				562190B5297C1ED100F337FF /* SceneDelegate.swift */,
-				562190B7297C1ED100F337FF /* MainTabBarViewController.swift */,
 				562190BC297C1ED300F337FF /* Assets.xcassets */,
 				562190BE297C1ED300F337FF /* LaunchScreen.storyboard */,
 				562190C1297C1ED300F337FF /* Info.plist */,
@@ -153,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				562190DD297FEF1F00F337FF /* Extensions.swift */,
+				562190B3297C1ED100F337FF /* AppDelegate.swift */,
+				562190B5297C1ED100F337FF /* SceneDelegate.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -172,6 +171,7 @@
 				562190C8297C22DF00F337FF /* HomeViewController.swift */,
 				562190CA297C232700F337FF /* UpcomingViewController.swift */,
 				562190CC297C237500F337FF /* SearchViewController.swift */,
+				562190B7297C1ED100F337FF /* MainTabBarViewController.swift */,
 				562190CE297C23B000F337FF /* DownloadsViewController.swift */,
 			);
 			path = Core;
