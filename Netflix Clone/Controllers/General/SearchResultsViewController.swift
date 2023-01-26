@@ -2,7 +2,7 @@
 //  SearchResultsViewController.swift
 //  Netflix Clone
 //
-//  Created by Amr Hossam on 31/12/2021.
+//  Created by Nazar Sydiaha on 25/01/2023.
 //
 
 import UIKit
@@ -10,6 +10,7 @@ import UIKit
 protocol SearchResultsViewControllerDelegate: AnyObject {
     func searchResultsViewControllerDidTapItem(_ viewModel: TitlePreviewViewModel)
 }
+
 
 class SearchResultsViewController: UIViewController {
     
@@ -91,4 +92,4 @@ extension SearchResultsViewController: UICollectionViewDelegate, UICollectionVie
 
     }
     
-}git rm --cached
+}
